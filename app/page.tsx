@@ -57,25 +57,6 @@ export default function Home() {
                   </div>
                 </div>
               </CarouselItem>
-              <CarouselItem>
-                <div className="relative h-[500px] w-full overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30 z-10" />
-                  <Image
-                    src="./img3.avif"
-                    alt="Depoimentos"
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                  <div className="absolute inset-0 z-20 flex items-center">
-                    <div className="container">
-                      <h1 className="max-w-2xl text-5xl font-bold tracking-tight text-amber-500">
-                        Depoimentos
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-              </CarouselItem>
             </CarouselContent>
             <div className="absolute bottom-4 right-4 z-30 flex gap-2">
               <CarouselPrevious className="h-8 w-8 rounded-full bg-white/20 p-2 text-white hover:bg-white/30" />
