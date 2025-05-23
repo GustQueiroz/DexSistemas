@@ -221,6 +221,140 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
+
+              <Card className="border-none shadow-md hover:shadow-lg transition-shadow duration-300">
+                <CardContent className="p-8">
+                  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                    Negociação de Medicamento
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    Inclusão on-line da lista de produtos do fornecedor.
+                    Configuração da lista a ser negociada.
+                  </p>
+                  <p className="text-gray-600 mb-4">
+                    Coleta automatizada dos valores de cada singular se
+                    necessário. Registro das etapas de negociação por fornecedor
+                    e por item.
+                  </p>
+                  <p className="text-gray-600 mb-4">
+                    Codificação da tabela de acordo com o padrão TUSS ou TNUMM
+                    no próprio sistema. Registro dos negociadores de cada
+                    tabela.
+                  </p>
+                  <p className="text-gray-600">
+                    Configuração e gestão de: PRINCÍPIO ATIVO, GRUPOS
+                    ANATÔMICOS, TERAPÊUTICOS, FARMACOLÓGICOS E QUÍMICOS.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-none shadow-md hover:shadow-lg transition-shadow duration-300">
+                <CardContent className="p-8">
+                  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                    Notificação Operadora vs Fornecedor
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    O módulo de notificação permite que sua operadora notifique
+                    os fornecedores e distribuidores sobre todo e qualquer
+                    problema decorrente da relação comercial.
+                  </p>
+                  <p className="text-gray-600">
+                    Gera histórico de ocorrências e mantém as demandas
+                    centralizadas para todos da equipe, facilitando o controle e
+                    acompanhamento de situações pendentes.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-none shadow-md hover:shadow-lg transition-shadow duration-300">
+                <CardContent className="p-8">
+                  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                    Negociação com Prestadores
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    Gestão das negociações entre operadora e prestador para
+                    insumos, OPME e medicamento, permitindo o controle das
+                    solicitações.
+                  </p>
+                  <p className="text-gray-600 mb-4">
+                    Gera histórico de todo andamento com chat dentro de cada
+                    solicitação, registro do usuário responsável por cada
+                    protocolo.
+                  </p>
+                  <p className="text-gray-600">
+                    Possibilidade de análise e declínio de cada solicitação,
+                    dando respaldo e registrando todas as interações entre
+                    usuários, com possibilidade de inclusão de anexos entre
+                    setores.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-none shadow-md hover:shadow-lg transition-shadow duration-300">
+                <CardContent className="p-8">
+                  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                    Mapa Cirúrgico
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    Gestão completa do agendamento de cirurgia feita diretamente
+                    pelo médico, possibilitando interação entre todos os atores
+                    do processo: médico, fornecedor, hospital e operadora de
+                    saúde.
+                  </p>
+                  <p className="text-gray-600 mb-4">
+                    Possibilita o cirurgião criar e gerenciar equipes médicas
+                    para alocação em procedimentos cirúrgicos em um ou mais
+                    prestadores.
+                  </p>
+                  <p className="text-gray-600">
+                    O hospital pode acompanhar os aceites de cada ato cirúrgico
+                    tanto da equipe médica quanto dos fornecedores envolvidos.
+                    Possibilita a alocação de equipamentos, material de estoque
+                    e insumos diversos previamente cadastrados.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-none shadow-md hover:shadow-lg transition-shadow duration-300">
+                <CardContent className="p-8">
+                  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                    Implante Coclear
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    Aplicação que permite otimizar o controle dos insumos e
+                    acessórios inerentes ao implante coclear. Controle de
+                    quantidades fornecidas de itens como pilha, bateria, antena,
+                    desumidificador, etc.
+                  </p>
+                  <p className="text-gray-600 mb-4">
+                    Cadastro prévio dos itens indicando a validade e
+                    durabilidade medida para controle de pedidos fora dos prazos
+                    de cada item.
+                  </p>
+                  <p className="text-gray-600">
+                    Controle e acompanhamento de manutenção de acessórios
+                    passando por auditoria, registrando a autorização ou glosa
+                    dos pedidos gerados.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-none shadow-md hover:shadow-lg transition-shadow duration-300">
+                <CardContent className="p-8">
+                  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                    Comparativo de Tabelas
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    Faça o comparativo com as versões da tabela da Unimed do
+                    Brasil de forma automatizada.
+                  </p>
+                  <p className="text-gray-600">
+                    Compare cada versão com a versão anterior, com sua tabela de
+                    OPME ou com a tabela TUSS da ANS, facilitando a gestão e
+                    atualização das informações.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
