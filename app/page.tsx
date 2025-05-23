@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, ChevronRight } from "lucide-react";
+import { Mail, Phone, ChevronRight, Link } from "lucide-react";
 
 export default function Home() {
   return (
@@ -304,9 +304,14 @@ export default function Home() {
               Entre em contato conosco e descubra como o DEX SISTEMAS pode
               otimizar seus processos.
             </p>
-            <Button className="bg-white text-amber-500 hover:bg-gray-100 hover:text-amber-600">
-              Fale Conosco
-              <ChevronRight className="ml-2 h-4 w-4" />
+            <Button
+              className="bg-white text-amber-500 hover:bg-gray-100 hover:text-amber-600"
+              asChild
+            >
+              <a href="https://api.whatsapp.com/send/?phone=27998999995&text&type=phone_number&app_absent=0">
+                Fale Conosco
+                <ChevronRight className="ml-2 h-4 w-4" />
+              </a>
             </Button>
           </div>
         </section>
