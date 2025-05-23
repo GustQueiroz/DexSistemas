@@ -70,6 +70,53 @@ export default function Home() {
           </Carousel>
         </section>
 
+        <section className="py-16 bg-gray-50">
+          <div className="container">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+              <div>
+                <h2 className="text-4xl font-bold text-gray-700 mb-4">
+                  <span className="text-gray-600">SRM</span>
+                  <span className="text-amber-500">2</span>
+                </h2>
+                <h3 className="text-2xl font-medium text-gray-500 mb-6">
+                  SISTEMA DE REGULAÇÃO DE MATERIAIS E MEDICAMENTOS
+                </h3>
+                <div className="space-y-4 text-gray-600">
+                  <p>
+                    Nossa plataforma é modular, ou seja, você pode escolher qual
+                    dos módulos atende a necessidade da sua operadora de saúde.
+                  </p>
+                  <p>
+                    Disponibilizamos controle de OPME e Medicamento via cadastro
+                    dos fornecedores e suas respectivas tabelas.
+                  </p>
+                  <p>
+                    Faça negociação de OPME/Medicamento direto no SRM2 de forma
+                    digitalizada, as negociações podem ser feitas mesmo no
+                    formato não presencial, porém, a participação de todos os
+                    envolvidos é registrada.
+                  </p>
+                  <p>
+                    Controle documentos mandatórios com avisos e ações mediante
+                    ao vencimento ou proximidade de vencimento.
+                  </p>
+                  <Button className="mt-4 bg-amber-500 hover:bg-amber-600 text-white">
+                    Saiba mais...
+                  </Button>
+                </div>
+              </div>
+              <div className="relative h-[400px]">
+                <Image
+                  src="./img2.avif"
+                  alt="SRM2"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="py-16 bg-white">
           <div className="container">
             <h2 className="text-3xl font-bold text-center text-gray-700 mb-12">
@@ -174,53 +221,6 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
-            </div>
-          </div>
-        </section>
-
-        <section className="py-16 bg-gray-50">
-          <div className="container">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-              <div>
-                <h2 className="text-4xl font-bold text-gray-700 mb-4">
-                  <span className="text-gray-600">SRM</span>
-                  <span className="text-amber-500">2</span>
-                </h2>
-                <h3 className="text-2xl font-medium text-gray-500 mb-6">
-                  SISTEMA DE REGULAÇÃO DE MATERIAIS E MEDICAMENTOS
-                </h3>
-                <div className="space-y-4 text-gray-600">
-                  <p>
-                    Nossa plataforma é modular, ou seja, você pode escolher qual
-                    dos módulos atende a necessidade da sua operadora de saúde.
-                  </p>
-                  <p>
-                    Disponibilizamos controle de OPME e Medicamento via cadastro
-                    dos fornecedores e suas respectivas tabelas.
-                  </p>
-                  <p>
-                    Faça negociação de OPME/Medicamento direto no SRM2 de forma
-                    digitalizada, as negociações podem ser feitas mesmo no
-                    formato não presencial, porém, a participação de todos os
-                    envolvidos é registrada.
-                  </p>
-                  <p>
-                    Controle documentos mandatórios com avisos e ações mediante
-                    ao vencimento ou proximidade de vencimento.
-                  </p>
-                  <Button className="mt-4 bg-amber-500 hover:bg-amber-600 text-white">
-                    Saiba mais...
-                  </Button>
-                </div>
-              </div>
-              <div className="relative h-[400px]">
-                <Image
-                  src="./img2.avif"
-                  alt="SRM2"
-                  fill
-                  className="object-contain"
-                />
-              </div>
             </div>
           </div>
         </section>
