@@ -22,11 +22,11 @@ export default function Home() {
           </div>
           <nav className="flex items-center gap-6">
             <div className="flex items-center gap-1 text-amber-500">
-              <Mail className="h-4 w-4" />
+              <Mail className="h-4 w-8" />
               <span className="text-sm">contato@dexsistemas.com.br</span>
             </div>
             <div className="flex items-center gap-1 text-amber-500">
-              <Phone className="h-4 w-4" />
+              <Phone className="h-4 w-10" />
               <span className="text-sm">(27) 99899-9999</span>
             </div>
           </nav>
@@ -100,9 +100,6 @@ export default function Home() {
                     Controle documentos mandatórios com avisos e ações mediante
                     ao vencimento ou proximidade de vencimento.
                   </p>
-                  <Button className="mt-4 bg-amber-500 hover:bg-amber-600 text-white">
-                    Saiba mais...
-                  </Button>
                 </div>
               </div>
               <div className="relative h-[400px]">
